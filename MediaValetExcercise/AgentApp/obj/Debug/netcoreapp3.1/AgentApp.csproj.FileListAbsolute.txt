@@ -1,0 +1,17 @@
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.exe
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.deps.json
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.runtimeconfig.json
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.runtimeconfig.dev.json
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\AgentApp.pdb
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.AssemblyInfoInputs.cache
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.AssemblyInfo.cs
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.pdb
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.KeyVault.Core.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Common.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\Microsoft.Azure.Storage.Queue.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.csproj.CopyComplete
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\bin\Debug\netcoreapp3.1\Microsoft.WindowsAzure.Storage.dll
+E:\MediaValetExcercise\MediaValetExcercise\AgentApp\obj\Debug\netcoreapp3.1\AgentApp.csprojAssemblyReference.cache
