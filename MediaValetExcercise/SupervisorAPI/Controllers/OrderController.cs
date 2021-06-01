@@ -21,9 +21,13 @@ namespace SupervisorAPI.Controllers
     
     public class OrderController : ControllerBase
     {
-        int _orderCounter = 0;
-        //const string SessionName = "_Name";
-        private readonly IOrderQueue _orderQueue;
+
+        private static int _orderCounter = 0;
+        static int generateCounter()
+        {
+            return _orderCounter++;
+        }
+       private readonly IOrderQueue _orderQueue;
         private readonly IConfirmationTable _confirmationTable;
         public OrderController(IOrderQueue orderQueue, IConfirmationTable confirmationTable)
         {
@@ -38,13 +42,13 @@ namespace SupervisorAPI.Controllers
            Confirmationmsg obj=null;
             try
             {
-                _orderCounter++;                
+                             
                 Random rd = new Random();
                 int rand_num = rd.Next(1, 10);
 
                 Order orderEntity = new Order
                 {
-                    OrderId = _orderCounter,
+                    OrderId = generateCounter(),
                     RandomNumber = rand_num,
                     OrderText = msg.AzureMessageText
 
