@@ -32,6 +32,7 @@ namespace SupervisorAPI
             QueueCreator.CreateAzureQueues(Configuration["Data:Azure:ConnectionString"], "orderqueue");
             services.AddTransient<IOrderQueue, OrderQueue>();
             TableCreator.CreateAzureTables(Configuration["Data:Azure:ConnectionString"], "confirmation");
+            TableCreator.CreateAzureTables(Configuration["Data:Azure:ConnectionString"], "ordercount");
             services.AddTransient<IConfirmationTable, ConfirmationTable>();
         }
 

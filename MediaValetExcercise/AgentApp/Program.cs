@@ -31,7 +31,7 @@ namespace AgentApp
                 CloudQueue cloudQueue = cloudQueueClient.GetQueueReference("orderqueue");
                 cloudQueue.CreateIfNotExists();
 
-                for (int a = 0; a < 50; a--)
+                for (int a = 0; a < 1; a--)
                 {
                     CloudQueueMessage retrievedMessage = cloudQueue.GetMessage();
                     if (retrievedMessage != null)

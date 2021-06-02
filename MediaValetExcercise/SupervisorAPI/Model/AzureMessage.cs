@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace SupervisorAPI.Model
 {
-    public class AzureMessage
+    public class OrderMessage
     {
 
-        public string AzureMessageText { get; set; }
+        public string OrderText { get; set; }
     }
 
 }
